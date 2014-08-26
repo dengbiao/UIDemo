@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AlloyTeamDemo/AlloyTeamDemo.iml" filepath="$PROJECT_DIR$/AlloyTeamDemo/AlloyTeamDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UIDemo.iml" filepath="$PROJECT_DIR$/UIDemo.iml" />
+    </modules>
+  </component>
+</project>
+
