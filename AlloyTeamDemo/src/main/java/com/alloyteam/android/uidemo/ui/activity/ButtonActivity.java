@@ -1,11 +1,13 @@
-package com.alloyteam.android.uidemo;
+package com.alloyteam.android.uidemo.ui.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
 
+import com.alloyteam.android.uidemo.R;
+
 import org.androidannotations.annotations.EActivity;
 
-@EActivity(R.layout.activity_main)
+@EActivity(R.layout.activity_button)
 public class ButtonActivity extends Activity{
 
 	@Override

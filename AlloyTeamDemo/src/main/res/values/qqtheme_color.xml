@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 按钮disable色值 -->
+    <color name="skin_common_btn_disable">#cccccc</color>
+    <!-- 白色按钮色值 -->
+    <color name="skin_common_btn_white_normal">#00a5e0</color>
+    <color name="skin_common_btn_white_pressed">#7f00a5e0</color>
+
+    <!-- 蓝色按钮色值 -->
+    <color name="skin_common_btn_blue_normal">#ffffff</color>
+    <color name="skin_common_btn_blue_pressed">#7fffffff</color>
+
+    <!-- 红色按钮色值 -->
+    <color name="skin_common_btn_red_normal">#ffffff</color>
+    <color name="skin_common_btn_red_pressed">#7fffffff</color>
+</resources>

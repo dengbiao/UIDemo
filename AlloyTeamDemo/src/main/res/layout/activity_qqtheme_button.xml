@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attr="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}">
+
+    <Button
+        android:text="确定"
+        style="@style/QQThemeButtonSmallBlue"
+        />
+
+    <Button
+        android:text="确定"
+        android:enabled="false"
+        style="@style/QQThemeButtonSmallBlue"
+        />
+
+
+    <Button
+        android:text="确定"
+        style="@style/QQThemeButtonSmallRed"
+        />
+
+
+    <Button
+        android:text="确定"
+        style="@style/QQThemeButtonSmallWhite"
+        />
+
+
+    <Button
+        android:text="用户登录"
+        style="@style/QQThemeButtonBigBlue"
+        />
+
+
+    <Button
+        android:text="退出当前账号"
+        style="@style/QQThemeButtonBigRed"
+        />
+
+
+    <Button
+        android:text="退出当前账号"
+        android:enabled="false"
+        style="@style/QQThemeButtonBigRed"
+        />
+
+
+    <Button
+        android:text="登录"
+        style="@style/QQThemeButtonBigWhite"
+        />
+
+
+</LinearLayout>

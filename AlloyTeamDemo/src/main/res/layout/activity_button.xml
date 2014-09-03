@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attr="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context="${relativePackage}.${activityClass}">
+
+    <com.alloyteam.android.uidemo.ui.view.ATMTextView
+        android:text="关注微博"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        attr:fillColor="@android:color/white"
+        attr:stokeColor="#d4d6d7"
+        attr:stokeWidth="2px"
+        attr:roundRadius="2dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        attr:pressedFillColor="#f0f0f0"
+        android:textColor="#1dafe3"
+        android:clickable="true"
+        />
+
+    <com.alloyteam.android.uidemo.ui.view.ATMTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="退出账号"
+        attr:type="button"/>
+
+
+    <com.alloyteam.android.uidemo.ui.view.ATMTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="登陆QQ"
+        android:textColor="@android:color/white"
+        attr:fillColor="#ff1097ff"
+        attr:type="button"/>
+
+
+    <com.alloyteam.android.uidemo.ui.view.ATMTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="快速登陆"
+        android:textColor="#1dafe3"
+        attr:pressedTextColor="#ff0000"
+        attr:pressedFillColor="#ffffbd51"
+        attr:type="button"/>
+
+
+    <com.alloyteam.android.uidemo.ui.view.ATMTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="快速登陆"
+        android:textColor="#ffe3613c"
+        attr:type="button"/>
+
+
+    <com.alloyteam.android.uidemo.ui.view.ATMTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="注册"
+        android:textColor="#1dafe3"
+        attr:type="button"/>
+
+    <com.alloyteam.android.uidemo.ui.view.ATMTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="注册"
+        android:textColor="#ffe3613c"
+        attr:type="button"/>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ATMCheckbox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@null</item>
+    </style>
+    <style name="ATMCheckbox_Blue" parent="@style/ATMCheckbox">
+        <item name="android:background">@drawable/atm_checkbox_selector_blue</item>
+    </style>
+    <style name="ATMCheckbox_Green" parent="@style/ATMCheckbox">
+        <item name="android:background">@drawable/atm_checkbox_selector_green</item>
+    </style>
+    <style name="ATMCheckbox_Orange" parent="@style/ATMCheckbox">
+        <item name="android:background">@drawable/atm_checkbox_selector_orange</item>
+    </style>
+    <style name="ATMCheckbox_Red" parent="@style/ATMCheckbox">
+        <item name="android:background">@drawable/atm_checkbox_selector_red</item>
+    </style>
+
+
+    <style name="ATMCheckbox_Circle_Red" parent="@style/ATMCheckbox">
+        <item name="android:background">@drawable/atm_checkbox_selector_circle_red</item>
+    </style>
+    <style name="ATMCheckbox_Circle_Orange" parent="@style/ATMCheckbox">
+        <item name="android:background">@drawable/atm_checkbox_selector_circle_orange</item>
+    </style>
+    <style name="ATMCheckbox_Circle_Blue" parent="@style/ATMCheckbox">
+        <item name="android:background">@drawable/atm_checkbox_selector_circle_blue</item>
+    </style>
+    <style name="ATMCheckbox_Circle_Green" parent="@style/ATMCheckbox">
+        <item name="android:background">@drawable/atm_checkbox_selector_circle_green</item>
+    </style>
+</resources>

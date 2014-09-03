@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="10dp"
+    android:background="#cccccc"
+    tools:context="${relativePackage}.${activityClass}">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="单选框1"
+            android:layout_marginRight="15dp"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:columnCount="4"
+            >
+
+
+            <CheckBox
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:checked="true"
+                style="@style/ATMCheckbox_Blue"/>
+
+
+            <CheckBox
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:checked="true"
+                style="@style/ATMCheckbox_Orange"/>
+
+
+            <CheckBox
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:checked="true"
+                style="@style/ATMCheckbox_Green"/>
+
+
+            <CheckBox
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:checked="true"
+                style="@style/ATMCheckbox_Red"/>
+        </GridLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="单选框2"
+            android:layout_marginRight="15dp"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:columnCount="4"
+            >
+
+
+            <CheckBox
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:checked="true"
+                style="@style/ATMCheckbox_Circle_Blue"/>
+
+
+            <CheckBox
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:checked="true"
+                style="@style/ATMCheckbox_Circle_Orange"/>
+
+
+            <CheckBox
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:checked="true"
+                style="@style/ATMCheckbox_Circle_Green"/>
+
+
+            <CheckBox
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:checked="true"
+                style="@style/ATMCheckbox_Circle_Red"/>
+        </GridLayout>
+    </LinearLayout>
+</LinearLayout>

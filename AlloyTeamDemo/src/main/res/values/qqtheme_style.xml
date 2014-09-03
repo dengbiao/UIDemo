@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 按钮基类主题 -->
+    <style name="QQThemeButton" parent="@android:style/Widget.CompoundButton">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:paddingLeft">14dp</item>
+        <item name="android:paddingRight">14dp</item>
+        <item name="android:layout_marginTop">9dp</item>
+        <item name="android:layout_marginBottom">9dp</item>
+    </style>
+
+    <!-- 小按钮基类主题 -->
+    <style name="QQThemeButtonSmall" parent="QQThemeButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">30dp</item>
+    </style>
+
+    <!-- 大按钮基类主题 -->
+    <style name="QQThemeButtonBig" parent="QQThemeButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+    </style>
+
+    <!-- 小按钮-蓝色 主题 -->
+    <style name="QQThemeButtonSmallBlue" parent="QQThemeButtonSmall">
+        <item name="android:background">@drawable/skin_common_selector_btn_small_blue</item>
+        <item name="android:textColor">@color/skin_common_selector_btn_blue</item>
+    </style>
+
+    <!-- 小按钮-红色 主题 -->
+    <style name="QQThemeButtonSmallRed" parent="QQThemeButtonSmall">
+        <item name="android:background">@drawable/skin_common_selector_btn_small_red</item>
+        <item name="android:textColor">@color/skin_common_selector_btn_red</item>
+    </style>
+
+    <!-- 小按钮-白色 主题 -->
+    <style name="QQThemeButtonSmallWhite" parent="QQThemeButtonSmall">
+        <item name="android:background">@drawable/skin_common_selector_btn_small_white</item>
+        <item name="android:textColor">@color/skin_common_selector_btn_white</item>
+    </style>
+
+    <!-- 大按钮-蓝色 主题 -->
+    <style name="QQThemeButtonBigBlue" parent="QQThemeButtonBig">
+        <item name="android:background">@drawable/skin_common_selector_btn_blue</item>
+        <item name="android:textColor">@color/skin_common_selector_btn_blue</item>
+    </style>
+
+    <!-- 大按钮-红色 主题 -->
+    <style name="QQThemeButtonBigRed" parent="QQThemeButtonBig">
+        <item name="android:background">@drawable/skin_common_selector_btn_red</item>
+        <item name="android:textColor">@color/skin_common_selector_btn_red</item>
+    </style>
+
+    <!-- 大按钮-白色 主题 -->
+    <style name="QQThemeButtonBigWhite" parent="QQThemeButtonBig">
+        <item name="android:background">@drawable/skin_common_selector_btn_white</item>
+        <item name="android:textColor">@color/skin_common_selector_btn_white</item>
+    </style>
+
+    <!-- checkbox 主题 -->
+    <style name="QQTHemeCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@null</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/atm_qq_selector_chechbox_cm_blue</item>
+    </style>
+
+    <style name="QQTHemeCheckBoxCM" parent="QQTHemeCheckBox">
+        <item name="android:background">@drawable/atm_qq_selector_chechbox_cm_blue</item>
+        <item name="android:layout_width">18dp</item>
+        <item name="android:layout_height">18dp</item>
+    </style>
+
+    <style name="QQTHemeCheckBoxList" parent="QQTHemeCheckBox">
+        <item name="android:background">@drawable/atm_qq_selector_chechbox_list</item>
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+    </style>
+
+    <style name="QQTHemeCheckBoxPhotoFlag" parent="QQTHemeCheckBox">
+        <item name="android:background">@drawable/atm_qq_selector_chechbox_photo_flag</item>
+        <item name="android:layout_width">31dp</item>
+        <item name="android:layout_height">31dp</item>
+    </style>
+
+</resources>

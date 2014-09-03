@@ -8,4 +8,20 @@
     <attr name="oval" format="boolean" />
     <attr name="android:scaleType" />
   </declare-styleable>
+
+    <declare-styleable name="ATMTextView">
+        <attr name="roundRadius" format="dimension" />
+        <attr name="stokeWidth" format="dimension" />
+        <attr name="stokeColor" format="color" />
+        <attr name="fillColor" format="color" />
+        <attr name="pressedTextColor" format="color"/>
+        <attr name="pressedRoundRadius" format="dimension" />
+        <attr name="pressedStokeWidth" format="dimension" />
+        <attr name="pressedStokeColor" format="color" />
+        <attr name="pressedFillColor" format="color" />
+        <attr name="type" format="integer">
+            <enum name="button" value="0x1"></enum><!-- 按钮 -->
+            <enum name="tag" value="0x2"></enum><!-- 头衔小文本 -->
+        </attr>
+    </declare-styleable>
 </resources>

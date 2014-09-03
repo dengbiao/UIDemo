@@ -1,1 +1,2 @@
-include ':AlloyTeamDemo'
+include ':test'
+include "AlloyTeamDemo"

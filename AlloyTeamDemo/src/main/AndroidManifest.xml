@@ -9,22 +9,43 @@
         android:theme="@style/AppTheme"
         android:label="@string/app_name" >
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.activity.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ButtonActivity_" android:label="Button" >
+        <activity android:name=".ui.activity.ButtonActivity_" android:label="Customer/Button" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.alloyteam.uidemo" />
             </intent-filter>
         </activity>
 
-        <activity android:name=".CheckBoxActivity_" android:label="CheckBox"  >
+        <activity android:name=".ui.activity.SettingActivity_" android:label="Customer/SettingLayout" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.alloyteam.uidemo" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.activity.CheckBoxActivity_" android:label="Customer/CheckBox"  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.alloyteam.uidemo" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".ui.activity.QQThemeButtonActivity_" android:label="QQTheme/Button"  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.alloyteam.uidemo" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.activity.QQThemeCheckBoxActivity_" android:label="QQTheme/CheckBox"  >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.alloyteam.uidemo" />
