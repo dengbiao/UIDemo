@@ -163,14 +163,14 @@
      ],
      "operationInfo":
      {
-     	"icon":"http://s.url.cn/qqun/qun/qunpay/gifts/img/common/flower_animation_1314-1851ca60.png",
-     	"jumpUrl":"www.qq.com",
+     	"icon":"http://pub.idqqimg.com/pc/misc/groupgift/operation.png",
+     	"jumpUrl":"www.qq.com"
      },
      "coinInfo":
      {
-				"icon":"http://s.url.cn/qqun/qun/qunpay/gifts/img/common/flower_animation_1314-1851ca60.png"
-				"jumpUrl":"www.qq.com",
-     },     
+				"icon":"http://pub.idqqimg.com/pc/misc/groupgift/currency.png",
+				"jumpUrl":"http://qun.qq.com/qunpay/gifts/buy.html"
+     },
     "defaultPackageID": 1,
     "defaultQuantity": "28"
 }
