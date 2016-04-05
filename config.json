@@ -161,16 +161,17 @@
 	    "quantity": 1314
      }
      ],
-     "operationInfo":
-     {
-     	"icon":"http://pub.idqqimg.com/pc/misc/groupgift/operation.png",
-     	"jumpUrl":"www.qq.com"
-     },
-     "coinInfo":
-     {
-				"icon":"http://pub.idqqimg.com/pc/misc/groupgift/currency.png",
-				"jumpUrl":"http://qun.qq.com/qunpay/gifts/buy.html"
-     },
+    "operationInfo":
+    {
+        "icon":"http://pub.idqqimg.com/pc/misc/groupgift/operation.png",
+        "jumpUrl":"www.qq.com"
+    },
+    "coinInfo":
+    {
+        "icon":"http://pub.idqqimg.com/pc/misc/groupgift/currency.png",
+        "iconGrid":"http://pub.idqqimg.com/pc/misc/groupgift/currency2.png",
+        "jumpUrl":"http://qun.qq.com/qunpay/gifts/buy.html"
+    },
     "defaultPackageID": 1,
     "defaultQuantity": "28"
 }
